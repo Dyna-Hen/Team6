@@ -1,0 +1,98 @@
+.about-us{
+    width: 100%;
+    height: 80vh;
+    z-index: 1;
+}
+.pic-abus{
+    z-index: -1;
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.442);
+    text-align: center;
+    h1{
+        color: $colorwhite;
+        padding: 90px 40px 40px 40px;
+        font-size: 35px;
+    }
+    .info{
+        color: $colorwhite;
+        margin: 20px;
+        font-size: 30px;
+        p{
+            margin-bottom: 5px;
+        }
+        
+    }
+}
+.supper-goal{
+    background-color: $button;
+    padding: 25px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+.goal{
+    @include btn;
+    background-color:$colorwhite;
+    box-shadow: $box-shadow;
+    color: rgb(83, 78, 78);
+    width: 500px;
+    margin: 20px;
+    // padding: 10px;
+    .goal-item{
+        padding: 20px;
+        // text-align: center;
+        .title{
+            text-align: center;
+            margin-bottom: 5%;
+            display: flex;
+            justify-content: center;
+            .fa{
+                margin-top: 3px;
+                margin-right: 5px;
+                color: $button;
+            }
+        }
+    }
+}
+.all-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+    .card-pic{
+        @include btn;
+        width: 300px;
+        background-color: $colorwhite;
+        border-bottom: 2px solid black;
+        border-radius: 0px;
+        margin-bottom: 5%;
+        .pic-item{
+           
+            .img{
+                img{
+                    width: 100%;
+                    height: 200px;
+                    border-radius: 5%;
+                }
+                  
+            }
+            .background{
+                color: black;
+                padding: 10px;
+                .name{
+                    text-align: center;
+                    h3{
+                        margin-top:    15px;
+                        margin-bottom: 5%;
+                    }
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

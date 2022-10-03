@@ -1,0 +1,245 @@
+// -----nav bar----//
+
+@media(max-width:1024px){
+    .nav{
+        .nav-center{
+            .icon{
+                display: none;
+            }
+        }
+        .nav-right .button-nav button{
+            @include btn;
+            padding: 5px;
+            font-size: 15px;
+        } 
+    }
+}
+
+@media(max-width:800px){
+    .nav{
+        height: 80px;
+        .nav-center{
+            ul{
+                display: none;
+            }
+            .icon{
+                display: flex;
+            }
+        }
+        // .nav-right{
+        //     .button-nav {
+        //         button:nth-child(1){
+        //             display: none;
+        //         }
+        //     }
+        // }
+    }
+    .about-us{      
+        height: 50vh;
+    }
+    .pic-abus{
+        height: 50vh;
+    }
+}
+@media(max-width: 500px){
+    .nav{
+        height: 40px;
+        .nav-center{
+            ul{
+                display: none;
+            }
+            .icon{
+                display: flex;
+            }
+        }
+        // .nav-right{
+        //     .button-nav {
+        //         button:nth-child(1){
+        //             display:flex;
+        //         }
+        //     }
+        // }
+    }
+    .about-us{      
+        height: 40vh;
+    }
+    .pic-abus{
+      
+        height: 40vh;
+        h1{
+            font-size: 30px;
+        }
+        .info{
+            p{
+                font-size: 20px;
+                margin-top: -30px;
+            }
+        }
+    }
+}
+
+// ----footer------
+
+@media(max-width:800px){
+    .footer{
+        .container{
+           .row{
+            .footer-col{
+                display: none;
+            }
+            .follow-us{
+                h4{
+                    display: none;
+                }
+                .social-link{
+                    width: 300px;
+                    .fa-brands,.fa-solid{
+                        margin-right: 30px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+           }
+        }
+    }
+}
+@media(max-width:500px){
+    .footer{
+        padding: 25px;
+        .container{
+           .row{
+            .footer-col{
+                display: none;
+            }
+            .follow-us{
+                h4{
+                    display: none;
+                }
+                .social-link{
+                    width: 300px;
+                    
+                    .fa-brands,.fa-solid{
+                        margin-right: 30px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+           }
+        }
+    }
+}
+// pageone
+@media (max-width: 800px){
+    .banner{
+        .research{
+            width: 300px;
+        }
+    }
+    .grid{
+        .item{
+            height: 30vh;
+        }
+    }
+}
+@media (max-width: 500px){
+    .nav-left{
+        display: none;
+    }
+    .nav-right{
+        .button-nav{
+            button{
+                @include btn;
+                width: 70px;
+                margin-top: 5px;
+                // display: flex;
+            }
+        }
+    } 
+    .banner{
+        margin-top: 5px;
+        p{
+            display: none;
+        }
+        .research{
+            font-size: 15px;
+            padding: 5px;
+            width: 150px;
+            left: 80%;
+            input{
+                font-size: 9px;
+            }
+            button{
+                display: none;
+            }
+        }
+    }
+    .grid{
+        .item{
+            height: 40vh;
+        }
+        .item:nth-child(5),.item:nth-child(6),.item:nth-child(7),.item:nth-child(8){
+            display: none;
+        }
+    }
+    .contentpageOne{
+        .text{
+            .btt-text {
+               display: none;
+            }           
+        }
+    }
+}
+    
+
+// page2
+@media (max-width: 800px){
+    .pic-abus{
+        .info :nth-child(2){
+            display: none;
+        }
+    }
+}
+@media (max-width: 500px){
+    .pic-abus{
+        .info :nth-child(2),.info :nth-child(3){
+            display: none;
+        }
+    }
+}
+
+
+
+
+// --------page3------!
+
+
+@media(max-width:800px){
+    .class-all-card{
+        h1{
+            text-align: center;
+        }
+    }
+}
+// ----form---!
+
+@media(max-width:800px){
+    .information-company{
+        display: none;
+    }
+    .pageform-regester{
+        margin: auto;
+    }
+
+}
+
+
+
+@media(max-width:800px){
+    .information{
+        display: none;
+    }
+    .pageform{
+        margin: auto;
+    }
+
+}

@@ -1,0 +1,43 @@
+@import "nav";
+@import "button";
+@import "footer";
+@import "variable";
+@import "card";
+@import "contentpageOne";
+@import "about-us";
+@import "responsive";
+@import "form";
+// @import "responsive-page3";
+// @import "banner";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width: 100%;
+}
+.nav-right .button-nav button{
+    @include btn;
+}
+
+.map{
+    margin: 20px;
+    font-size: 30px;
+    
+    i{
+        font-size: 30px;
+        margin: 20px;
+    }
+    iframe{
+        width: 100%;
+        height: 80vh;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.428) 1.95px 1.95px 2.6px;
+    }
+}
+
+
+
+
+
